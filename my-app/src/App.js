@@ -6,10 +6,13 @@ import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallb
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 
 function App() {
   return <div className="App">
-        <EventBinding />
+        <ConditionalRenderingClass />
+        <ConditionalRenderingFunctional connected={true} />
   </div>;
 }
 
