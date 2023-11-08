@@ -20,10 +20,13 @@ import SearchBar from './components/SearchBar';
 import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays'
 import UseStateWithObjects from './components/UseStateWithObjects';
+import ClassCounter from "./components/ClassCounter";
+import UseEffectCounter from './components/UseEffectCounter';
 
 function App() {
   return <div className="App">
-        <UseStateWithObjects />
+        <ClassCounter />
+        <UseEffectCounter />
   </div>;
 }
 
