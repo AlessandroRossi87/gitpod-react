@@ -24,10 +24,11 @@ import ClassCounter from "./components/ClassCounter";
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import HTTPRequests from './components/HTTPRequests'
+import HTTPPosts from './components/HTTPPosts'
 
 function App() {
   return <div className="App">
-        <HTTPRequests />
+        <HTTPPosts />
   </div>;
 }
 
